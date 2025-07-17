@@ -69,6 +69,26 @@ mern-testing/
 - Cypress/Playwright: End-to-end testing framework
 - MongoDB Memory Server: In-memory MongoDB for testing
 
+## 🧪 Testing Scripts
+
+### Client
+- `npm test --prefix client` – Run all client tests
+- `npm run test:unit --prefix client` – Run client unit tests
+- `npm run test:integration --prefix client` – Run client integration tests
+- `npm run test:e2e --prefix client` – Run Cypress E2E tests
+
+### Server
+- `npm test --prefix server` – Run all server tests
+- `npm run test:unit --prefix server` – Run server unit tests
+- `npm run test:integration --prefix server` – Run server integration tests
+
+### Install All Dependencies
+- `npm install --prefix client && npm install --prefix server`
+
+### Notes
+- Make sure your development server is running for E2E tests.
+- Adjust test scripts as needed for your workflow.
+
 ## Submission
 
 Your work will be automatically submitted when you push to your GitHub Classroom repository. Make sure to:

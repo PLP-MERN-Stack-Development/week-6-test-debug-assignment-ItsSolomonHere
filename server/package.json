@@ -1,0 +1,15 @@
+{
+  "name": "mern-server",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "test": "jest",
+    "test:unit": "jest --selectProjects=server --testPathPattern=unit",
+    "test:integration": "jest --selectProjects=server --testPathPattern=integration"
+  },
+  "devDependencies": {
+    "jest": "^29.0.0",
+    "supertest": "^6.3.0",
+    "mongodb-memory-server": "^8.0.0"
+  }
+} 
