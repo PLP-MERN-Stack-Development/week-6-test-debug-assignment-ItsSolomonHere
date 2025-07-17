@@ -5,11 +5,13 @@
   "scripts": {
     "test": "jest",
     "test:unit": "jest --selectProjects=server --testPathPattern=unit",
-    "test:integration": "jest --selectProjects=server --testPathPattern=integration"
+    "test:integration": "jest --selectProjects=server --testPathPattern=integration",
+    "dev": "nodemon src/app.js"
   },
   "devDependencies": {
     "jest": "^29.0.0",
     "supertest": "^6.3.0",
-    "mongodb-memory-server": "^8.0.0"
+    "mongodb-memory-server": "^8.0.0",
+    "nodemon": "^3.0.0"
   }
 } 
